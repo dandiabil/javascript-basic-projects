@@ -14,7 +14,29 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>review project</h1>
+    <main>
+      <div class="container">
+        <div class="title">
+          <h2>Our Reviews</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="review">
+          <figure class="img-container">
+            <img src="./person-1.jpeg" alt="" id="person-img">
+          </figure>
+          <h4 id="author">Anna Johnson</h4>
+          <p id="job">WEB DESIGNER</p>
+          <p id="info">Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.</p>
+          <div class="button-container">
+            <button class="prev-btn" onclick="prevReview()">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next-btn" onclick="nextReview()"><i class="fas fa-chevron-right"></i></button>
+          </div>
+          <button class="random-btn" onclick="randomReview()">Surprise Me</button>
+        </div>
+      </div>
+    </main>
     <!-- javascript -->
     <script src="app.js"></script>
   </body>

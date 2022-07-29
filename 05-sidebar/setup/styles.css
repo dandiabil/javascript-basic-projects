@@ -157,6 +157,7 @@ Sidebar
 ===============
 */
 .sidebar-toggle {
+  z-index: 0;
   position: fixed;
   top: 2rem;
   right: 3rem;
@@ -236,6 +237,7 @@ Sidebar
 }
 
 .sidebar {
+  z-index: 1;
   position: fixed;
   top: 0;
   left: 0;
@@ -247,7 +249,7 @@ Sidebar
   row-gap: 1rem;
   box-shadow: var(--clr-red-dark);
   transition: var(--transition);
-  /* transform: translate(-100%); */
+  transform: translate(-100%);
 }
 .show-sidebar {
   transform: translate(0);
