@@ -226,18 +226,16 @@ Questions
 .question-text {
   padding: 1rem 0 1.5rem 0;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
+  display: none;
 }
 .question-text p {
   margin-bottom: 0;
 }
 /* hide text */
-/* .question-text {
-  display: none;
-}
-.show-text .question-text {
+.show-text {
   display: block;
 }
-.minus-icon {
+/* .minus-icon {
   display: none;
 }
 .show-text .minus-icon {
